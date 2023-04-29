@@ -14,7 +14,7 @@ export const Project = () => {
              resArray.push(elements);
             }
            });
-        console.log(resArray)
+        // console.log(resArray)
 
         localStorage.setItem('projects', JSON.stringify([...resArray, newProject]))  
         setProjects([...resArray, newProject]);
